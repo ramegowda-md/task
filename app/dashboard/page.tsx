@@ -7,7 +7,10 @@ import { Suspense } from 'react';
 import { CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from '@/app/ui/skeletons';
 import { Metadata } from 'next';
 
+
 import CardWrapper from '@/app/ui/dashboard/cards';
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: 'Dashboard',
